@@ -86,3 +86,24 @@ function render(){
 }
 ```
 
+
+
+## React - Redux
+
+- 변화를 원하는 컴포넌트에게만 렌더링할 수 있게 도와준다
+- Redux-store를 통해서 복잡한 컴포넌트간의 관계를 완화해준다.
+
+connect(mapStateToProps , mapDispatchToProps)(컴포넌트);
+
+: connect()를 실행하면 리턴값이 함수이고 그 리턴된 함수를 다시 실행함.
+
+connect()의 인자는 없을 수 도 있고, 하나일 수도 있다(하나라면 mapStateToProps)
+
+인자 함수 map..의 이름은 마음대로 정할 수 있다.
+
+
+
+**mapReduxStateToReactProps**
+
+**mapReduxDispatchToReactProps**
+
